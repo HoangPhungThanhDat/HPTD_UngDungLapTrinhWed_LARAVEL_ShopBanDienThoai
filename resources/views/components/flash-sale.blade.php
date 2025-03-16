@@ -1,3 +1,6 @@
+<div class="container mt-5">
+    <div class="row">
+
 <div class="highlight-products">
     <div class="header">
         <h1 > Sale Sốc Hôm Nay</h1>
@@ -37,6 +40,8 @@
     </div>
 </div>
 
+</div>
+</div>
 <!-- Thư viện Swiper -->
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>

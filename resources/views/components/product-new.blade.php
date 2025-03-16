@@ -8,12 +8,17 @@
             <x-product-card :productitem="$product"/>
         @endforeach     
       </div>
-      <div class="row mt-2">
-        <div class="col-12 text-center">                   
-            <a href="" class="view-all-btn">Xem thêm sản phẩm &gt;</a>
-        </div>
-    </div>     
-        </div>      
+        <div class="row mt-2">
+            <div class="col-12 text-center">                   
+                <a href="" class="view-all-btn">Xem thêm sản phẩm &gt;</a>
+            </div>
+        </div> 
+        <div class="banner">
+            <img src="{{ asset('image\banner25.webp')}}" alt="" style="width: 1250px; margin-top:15px"> 
+        </div> 
+        </div>  
+        
+       
     </div> 
 </div>
 

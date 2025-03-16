@@ -20,7 +20,7 @@
         @yield('content')
     </main>
 
-    <footer class="section_footer bg-dark text-white py-2 " style="margin-top:20px">
+    <footer class="section_footer bg-dark text-white py-2 " style="margin-top:20px; width: 1600px; margin-left: -150px;">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">

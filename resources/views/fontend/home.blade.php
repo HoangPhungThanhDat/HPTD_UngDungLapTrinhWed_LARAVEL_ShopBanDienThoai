@@ -2,7 +2,7 @@
 @section('content')
 <!-- hiện thị sản phẩm -->
 <div class="banner">
-<img src="{{ asset('image\banner1.webp')}}" alt="" style="width: 1520px; margin-top:-20px"> 
+<img src="{{ asset('image\banner1.webp')}}" alt="" style="width: 1520px; margin-top:-20px; margin-left: -120px; "> 
 </div>
 <div class="main" style="margin-top: 0px;">
     <div class="container-fluid">
@@ -14,9 +14,7 @@
             <x-flash-sale/>
 {{-- Sản phẩm mới--}}
             <x-product-new/>
-            <div class="banner">
-                <img src="{{ asset('image\banner25.webp')}}" alt="" style="width: 1520px; margin-top:10px"> 
-            </div>
+           
             <x-product-category-home/>
             <div class="banner">
                 <img src="{{ asset('image\banner26.webp')}}" alt="" style="width: 1250px; margin-top:10px"> 
